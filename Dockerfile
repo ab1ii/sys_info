@@ -40,7 +40,7 @@ EXPOSE 80
 
 
 #copy source code
-COPY sys_info /var/www/html/
+COPY app /var/www/html/
 COPY startThings.sh /
 
 
