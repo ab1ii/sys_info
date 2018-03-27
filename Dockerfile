@@ -42,7 +42,7 @@ EXPOSE 80
 #copy source code
 COPY app /var/www/html/
 COPY startThings.sh /
-RUN chmod +x startThings.sh
+RUN chmod 777 startThings.sh
 
 
 CMD ./startThings.sh
