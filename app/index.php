@@ -85,7 +85,7 @@
     </script>
   <section>
   <h2>System Info</h2>  
-  <div id="preCkDiv" style="display:none;" >For a system requirements test only, check the Prerequisites box.&nbsp;      
+  <div id="preCkDiv" style="display:none;" >      
     <a href="#" onclick="location.reload();"   title="Get latest test results."  role="button" style="float:right;" >Refresh</a>
   </div> 
   <div id="errDiv">PHP Error. Please Check ACT_config.php for errors.&nbsp;<a href="https://community.i2b2.org/wiki/display/ACT/Issues" target="_blank" title="Opens the ACT Plugin Wiki page for ACT config  issues in a new tab">more info</a> </div>
